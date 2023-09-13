@@ -16,7 +16,7 @@ const SearchPage = () => {
         <div className="flex items-center bg-[#D9D9D9] h-10 justify-center gap-5 mx-10 rounded-full mt-9">
           <img src={Placeholder} className="h-5 ml-3" alt="" />
           <input
-            className="w-52 h-10 outline-none border-none bg-[#D9D9D9] text-xs"
+            className="w-40 h-10 outline-none border-none bg-[#D9D9D9] text-xs"
             type="text"
             placeholder="Search Projects"
           />
