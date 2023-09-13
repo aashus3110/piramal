@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Register />} />
+        <Route path="/piramal" element={<Register />} />
         <Route path="/SearchPage" element={<SearchPage />} />
       </Routes>
     </Router>
