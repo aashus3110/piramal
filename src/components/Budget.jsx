@@ -88,7 +88,7 @@ const Budget = () => {
         </div>
       </div>
       <div className="px-12 py-6 text-sm font-bold">
-        <span>Exclusively for Pirimal Members</span>
+        <span> Exclusively for Pirimal Members</span>
       </div>
     </div>
   );
