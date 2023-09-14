@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FILLEDOUTLINE from "../img/FILLEDOUTLINE.png";
 import villa1 from "../img/villa1.png";
 import location from "../img/location-pin.png";
+import Rectangle143 from "../img/Rectangle143.png";
 
 const Budget = () => {
   const [minValue, setMinValue] = useState("");
@@ -16,7 +17,7 @@ const Budget = () => {
   };
 
   return (
-    <div>
+    <div className="pb-10">
       <div className="px-12 pt-6 text-sm font-bold">
         <span>Budget</span>
       </div>
@@ -89,6 +90,12 @@ const Budget = () => {
       </div>
       <div className="px-12 py-6 text-sm font-bold">
         <span>Exclusively for Pirimal Members</span>
+      </div>
+      <div className="">
+        <img src={Rectangle143} className="mx-auto" alt="" />
+      </div>
+      <div className="bg-[#0EA57A] text-white font-medium text-center w-fit mx-auto my-4 text-xs px-6 py-2 rounded-full">
+        <button>View Project</button>
       </div>
     </div>
   );

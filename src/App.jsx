@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Register from "./components/Register";
 import SearchPage from "./components/SearchPage";
