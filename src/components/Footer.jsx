@@ -6,7 +6,7 @@ import { BiLogoTwitter, BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="min-[300px]:h-[40vh]c min-[300px]:pt-32 min-[360px]:pt-20">
+    <div className="min-[300px]:h-[40vh] min-[300px]:pt-32 min-[360px]:pt-20">
       <div className="bg-[#F3F4F9] py-10">
         <div className="text-center font-semibold pt-5 pb-5">
           <span>Call us</span>

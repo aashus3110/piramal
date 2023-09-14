@@ -22,12 +22,12 @@ const Overview = () => {
   };
 
   return (
-    <div>
+    <div className="h-[115vh]">
       <div className="text-[#1A2440] font-extrabold text-center text-xl py-6">
         <span>{titles[currentSlide]}</span>
       </div>
-      <div className="bg-[#1A2440] h-[80vh] relative top-40 rounded-t-3xl"></div>
-      <div className="pb-10 relative -top-[46rem]">
+      <div className="bg-[#1A2440] h-[100vh] relative top-40 rounded-t-3xl"></div>
+      <div className="relative -top-[46rem] min-[300px]:-top-[44rem] min-[400px]:-top-[45rem] min-[360px]:-top-[43rem]">
         <div className="slider-container mx-auto w-[302px] h-[412px] relative">
           <img
             src={slides[currentSlide].image}

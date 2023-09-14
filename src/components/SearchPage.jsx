@@ -3,6 +3,7 @@ import Placeholder from "../img/placeholder.png";
 import { BiSearch } from "react-icons/bi";
 import Budget from "./Budget";
 import Overview from "./Overview";
+import Footer from "./Footer";
 
 const SearchPage = () => {
   return (
@@ -30,6 +31,7 @@ const SearchPage = () => {
         <Budget />
       </div>
       <Overview />
+      <Footer />
     </>
   );
 };
