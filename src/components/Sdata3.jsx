@@ -3,8 +3,8 @@ import PREMIU from "../img/i/PREMIU.png";
 import callll from "../img/i/callll.png";
 import carparking from "../img/i/carparking.png";
 import shoppingcart from "../img/i/shoppingcart.png";
-import boardmeetin from "../img/i/security.png";
-import PREMIU from "../img/i/boardmeetin.png";
+import security from "../img/i/security.png";
+import boardmeetin from "../img/i/boardmeetin.png";
 import massag from "../img/i/massag.png";
 
 const Sdata3 = () => {
